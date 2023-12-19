@@ -234,7 +234,7 @@ footer {
   position: absolute;
   background-color: var(--White);
   width: 18.5em;
-  box-shadow: 60px 200px 200px rgb(83, 82, 82);
+  box-shadow: 20px 20px 20rem 3rem rgb(65, 63, 63);
   margin-top: 3.1em;
 
   border-radius: 0.5em;
