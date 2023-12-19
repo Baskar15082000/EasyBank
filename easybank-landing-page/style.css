@@ -224,6 +224,7 @@ footer {
 .rights {
   padding-top: 1em;
   padding-bottom: 2.5em;
+  color: var(--Grayish-Blue);
 }
 .dropdown_content {
   display: none;
