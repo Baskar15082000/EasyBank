@@ -357,13 +357,13 @@ footer {
   }
   .home_image {
     position: absolute;
-    padding-left: 4em;
+    padding-left: 6.5em;
   }
   .dropdown_content_out {
     display: flex;
     flex-direction: row;
-    margin-left: 20em;
-    margin-right: 5em;
+    margin-left: 22em;
+    margin-right: 2em;
     margin-bottom: -0.9em;
   }
   .home {
@@ -387,7 +387,7 @@ footer {
       var(--Lime-Green),
       var(--Bright-Cyan)
     );
-    margin-right: 4em;
+    margin-right: 8em;
   }
   .flex_1 {
     display: flex;
@@ -401,7 +401,7 @@ footer {
     position: absolute;
     width: 50%;
     right: -8%;
-    top: -0.8%;
+    top: -1%;
     z-index: 0;
   }
   .mobile {
@@ -416,20 +416,20 @@ footer {
     position: relative;
     width: 100%;
     z-index: -3;
-    right: -10.5em;
+    right: -9.5em;
     top: -10em;
   }
 
   .Page_1_content {
     padding-top: 4em;
-    padding-left: 6em;
+    padding-left: 7em;
   }
   .text {
     text-align: left;
     margin-left: -1.4em;
   }
   .bottom {
-    margin-left: -8.5em;
+    margin-left: -8.8em;
   }
   .middle_text {
     width: 25em;
@@ -442,16 +442,20 @@ footer {
   .top_desktop {
     margin-left: -31em;
   }
+  .text_d {
+    width: 20em;
+  }
   .desk_1 {
-    margin-left: -9em;
+    margin-left: -6em;
   }
   .text_2_ {
-    margin-left: -49.5em;
+    margin-left: -51em;
+
     text-align: left;
   }
   .text_2 {
     text-align: left;
-    width: 16.5em;
+    width: 17em;
   }
   .desk {
     align-items: start;
@@ -466,7 +470,7 @@ footer {
 
   .article_desk {
     flex-direction: column;
-    margin-left: 1.4em;
+    margin-left: 1em;
   }
   .articles {
     flex-direction: row;
