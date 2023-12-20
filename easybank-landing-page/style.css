@@ -362,7 +362,7 @@ footer {
   .dropdown_content_out {
     display: flex;
     flex-direction: row;
-    margin-left: 14em;
+    margin-left: 20em;
     margin-right: 5em;
     margin-bottom: -0.9em;
   }
@@ -387,7 +387,7 @@ footer {
       var(--Lime-Green),
       var(--Bright-Cyan)
     );
-    margin-right: 7em;
+    margin-right: 4em;
   }
   .flex_1 {
     display: flex;
@@ -399,9 +399,9 @@ footer {
   .mobile_image_pc {
     display: block;
     position: absolute;
-    width: 55%;
-    right: -9%;
-    top: -0.5%;
+    width: 50%;
+    right: -8%;
+    top: -0.8%;
     z-index: 0;
   }
   .mobile {
@@ -413,11 +413,11 @@ footer {
 
   .background_image_desktop {
     display: block;
-
-    width: 115%;
+    position: relative;
+    width: 100%;
     z-index: -3;
-    margin-right: -2em;
-    margin-top: -10.5em;
+    right: -10.5em;
+    top: -10em;
   }
 
   .Page_1_content {
@@ -426,7 +426,7 @@ footer {
   }
   .text {
     text-align: left;
-    margin-left: -1.5em;
+    margin-left: -1.4em;
   }
   .bottom {
     margin-left: -8.5em;
@@ -434,7 +434,7 @@ footer {
   .middle_text {
     width: 25em;
     text-align: left;
-    margin-left: 1.5em;
+    margin-left: 2em;
   }
   .Page_2_content {
     z-index: -1;
@@ -466,14 +466,14 @@ footer {
 
   .article_desk {
     flex-direction: column;
-    margin-left: -1em;
+    margin-left: 1.4em;
   }
   .articles {
     flex-direction: row;
     padding-left: 8em;
   }
   .article_info {
-    padding-right: 1em;
+    padding-right: 1.4em;
   }
   .article_image {
     width: 14.5em;
