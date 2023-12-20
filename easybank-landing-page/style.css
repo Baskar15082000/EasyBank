@@ -96,6 +96,13 @@ header {
   text-align: center;
   color: var(--Grayish-Blue);
 }
+.text_2_ {
+  font-size: 0.85em;
+  width: 22.4em;
+  line-height: 1.3em;
+  text-align: center;
+  color: var(--Grayish-Blue);
+}
 .Page_2_content {
   padding-top: 2.5em;
   padding-bottom: 2em;
@@ -129,10 +136,15 @@ header {
   flex-direction: column;
   align-self: center;
 }
+.heading_desk {
+  display: flex;
+  justify-content: center;
+  padding-top: 5em;
+  margin-bottom: -4em;
+}
 .heading {
   align-self: center;
   font-size: 2.1em;
-  padding-bottom: 0.5em;
 }
 .article_image {
   display: flex;
@@ -143,6 +155,16 @@ header {
   border-top-right-radius: 1.4em;
   border-top-left-radius: 1.4em;
 }
+.article_image_ {
+  display: flex;
+  align-self: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  width: 18.5em;
+  border-top-right-radius: 1.4em;
+  border-top-left-radius: 1.4em;
+}
+
 .author {
   padding-left: 2.6em;
   /* padding-right: 3.3em; */
@@ -184,6 +206,11 @@ footer {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .icons {
   display: flex;
   flex-direction: row;
@@ -196,15 +223,27 @@ footer {
   width: 2em;
   padding-bottom: 2em;
 }
+
 .footer_info {
   display: flex;
   flex-direction: column;
   padding-bottom: 1em;
   align-items: center;
 }
+.midleleft,
+.midleright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .options {
   padding: 0.5em;
   color: var(--White);
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .foot_button {
   padding-left: 2em;
@@ -234,10 +273,16 @@ footer {
   position: absolute;
   background-color: var(--White);
   width: 18.5em;
-  box-shadow: 20px 20px 20rem 3rem rgb(65, 63, 63);
+  box-shadow: 20px 20px 20rem 2rem rgb(65, 63, 63);
   margin-top: 3.1em;
 
   border-radius: 0.5em;
+}
+.desk {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 .home:hover .dropdown_content {
   display: flex;
@@ -249,7 +294,7 @@ footer {
   align-items: center;
   margin-left: -18.3em;
   .options {
-    color: black;
+    color: rgb(3, 3, 3);
     padding-top: 1em;
     padding-bottom: 1em;
   }
@@ -265,11 +310,223 @@ footer {
 .close {
   display: none;
   position: absolute;
-  left: 350px;
+  left: 400px;
   z-index: 100%;
-  margin-left: -1.7em;
+  left: 20.5em;
   margin-top: -0.5em;
 }
 .Page_2_content {
   background-color: var(--Light-Grayish-Blue);
+}
+.dropdown_content_out {
+  display: none;
+}
+.button_desktop {
+  display: none;
+}
+.background_image_desktop {
+  display: none;
+}
+.mobile_image_pc {
+  display: none;
+}
+@media only screen and (min-width: 325px) and (max-width: 420px) {
+  .close {
+    display: none;
+    position: absolute;
+    left: 400px;
+    z-index: 100%;
+    left: 18em;
+    margin-top: -0.5em;
+  }
+}
+@media screen and (min-width: 720px) {
+  .outer_flex {
+    width: 100bh;
+    overflow: hidden;
+    position: relative;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 0;
+    z-index: 100;
+  }
+  .home_image {
+    position: absolute;
+    padding-left: 4em;
+  }
+  .dropdown_content_out {
+    display: flex;
+    flex-direction: row;
+    margin-left: 14em;
+    margin-right: 5em;
+    margin-bottom: -0.9em;
+  }
+  .home {
+    display: none;
+  }
+  .options {
+    color: var(--Grayish-Blue);
+  }
+  .button_desktop {
+    display: flex;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    border-radius: 1.5rem;
+    border: none;
+    color: var(--White);
+    font-size: 1.1em;
+    background-image: linear-gradient(
+      to right,
+      var(--Lime-Green),
+      var(--Bright-Cyan)
+    );
+    margin-right: 7em;
+  }
+  .flex_1 {
+    display: flex;
+
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .mobile_image_pc {
+    display: block;
+    position: absolute;
+    width: 55%;
+    right: -9%;
+    top: -0.5%;
+    z-index: 0;
+  }
+  .mobile {
+    display: none;
+  }
+  .background_image {
+    display: none;
+  }
+
+  .background_image_desktop {
+    display: block;
+
+    width: 115%;
+    z-index: -3;
+    margin-right: -2em;
+    margin-top: -10.5em;
+  }
+
+  .Page_1_content {
+    padding-top: 4em;
+    padding-left: 6em;
+  }
+  .text {
+    text-align: left;
+    margin-left: -1.5em;
+  }
+  .bottom {
+    margin-left: -8.5em;
+  }
+  .middle_text {
+    width: 25em;
+    text-align: left;
+    margin-left: 1.5em;
+  }
+  .Page_2_content {
+    z-index: -1;
+  }
+  .top_desktop {
+    margin-left: -31em;
+  }
+  .desk_1 {
+    margin-left: -9em;
+  }
+  .text_2_ {
+    margin-left: -49.5em;
+    text-align: left;
+  }
+  .text_2 {
+    text-align: left;
+    width: 16.5em;
+  }
+  .desk {
+    align-items: start;
+    padding-right: 1em;
+  }
+  .main_desk {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -1em;
+  }
+
+  .article_desk {
+    flex-direction: column;
+    margin-left: -1em;
+  }
+  .articles {
+    flex-direction: row;
+    padding-left: 8em;
+  }
+  .article_info {
+    padding-right: 1em;
+  }
+  .article_image {
+    width: 14.5em;
+  }
+
+  .article_image_ {
+    width: 13em;
+  }
+
+  .author {
+    padding-left: 1.7em;
+    font-size: 0.6em;
+  }
+  .description {
+    padding-left: 1.4em;
+
+    font-size: 0.7em;
+  }
+  .detail {
+    padding-left: 1.5em;
+    font-size: 0.7em;
+    width: 14em;
+  }
+  footer {
+    padding-top: 1em;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .left {
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .footer_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+  }
+  .right {
+    flex: 2;
+  }
+  .icon_img {
+    width: 1.2em;
+  }
+  .foot_button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1em;
+  }
+  .title {
+    padding-bottom: 3em;
+  }
 }
