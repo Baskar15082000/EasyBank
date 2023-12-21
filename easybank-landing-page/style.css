@@ -570,6 +570,7 @@ footer {
     padding: 0.5em;
     color: var(--Grayish-Blue);
     border-bottom: solid transparent;
+    cursor: pointer;
     transition: border-color 0.3s;
   }
   .options {
