@@ -114,6 +114,10 @@ header {
   align-items: center;
   margin-bottom: 3em;
 }
+.text_d {
+  display: flex;
+  justify-content: center;
+}
 .img {
   padding-top: 3em;
   padding-bottom: 1em;
@@ -442,6 +446,9 @@ footer {
   .top_desktop {
     margin-left: -31em;
   }
+  .t_desk {
+    width: 27em;
+  }
   .text_d {
     width: 20em;
   }
@@ -472,6 +479,11 @@ footer {
     flex-direction: column;
     margin-left: 1em;
   }
+  .heading_desk {
+    display: flex;
+    justify-content: left;
+    padding-left: 7.7em;
+  }
   .articles {
     flex-direction: row;
     padding-left: 8em;
@@ -499,7 +511,7 @@ footer {
   .detail {
     padding-left: 1.5em;
     font-size: 0.7em;
-    width: 14em;
+    width: 16em;
   }
   footer {
     padding-top: 1em;
@@ -532,5 +544,38 @@ footer {
   }
   .title {
     padding-bottom: 3em;
+  }
+  .button_desktop:hover,
+  .button:hover {
+    opacity: 0.6;
+  }
+  .foot_button:hover {
+    opacity: 0.8;
+  }
+  .options_desk {
+    padding: 0.5em;
+    color: var(--Grayish-Blue);
+    border-bottom: solid transparent;
+    transition: border-color 0.3s;
+  }
+  .options {
+    color: var(--White);
+  }
+  .options_desk:hover {
+    color: black;
+    border-bottom-style: solid;
+    border-image: linear-gradient(
+      to right,
+      var(--Lime-Green),
+      var(--Bright-Cyan)
+    );
+    border-image-slice: 1;
+  }
+  .description:hover,
+  .options:hover {
+    color: var(--Lime-Green);
+  }
+  .icon_img:hover > a > svg > path {
+    fill: var(--Lime-Green);
   }
 }
