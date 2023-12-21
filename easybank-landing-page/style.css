@@ -118,6 +118,10 @@ header {
   display: flex;
   justify-content: center;
 }
+.t_desk {
+  display: flex;
+  justify-content: center;
+}
 .img {
   padding-top: 3em;
   padding-bottom: 1em;
