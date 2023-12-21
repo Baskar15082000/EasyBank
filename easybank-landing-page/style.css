@@ -399,9 +399,11 @@ footer {
   }
   .flex_1 {
     display: flex;
-
+    background-color: var(--Very-Light-Gray);
     flex-direction: row;
     overflow: hidden;
+    z-index: -60;
+    margin-bottom: -2em;
   }
 
   .mobile_image_pc {
@@ -423,7 +425,7 @@ footer {
     display: block;
     position: relative;
     width: 100%;
-    z-index: -3;
+
     right: -7.5em;
     top: -10em;
   }
